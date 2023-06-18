@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.2)
+
+project(src)
+
+add_executable(curves
+src/main.cpp
+
+src/circle.cpp
+src/ellipse.cpp
+src/helix.cpp
+src/curves_creator.cpp
+
+src/curve.h
+src/circle.h
+src/ellipse.h
+src/helix.h
+src/point.h 
+src/point.cpp
+src/random_getter.h
+src/curves_creator.h 
+src/constants.h
+
+ )
+
